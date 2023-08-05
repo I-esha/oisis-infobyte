@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: azure;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.features, .pricing, .contact {
+    margin-bottom: 40px;
+}
+
+    .features h2, .pricing h2, .contact h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .features ul, .pricing ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    .contact form {
+        margin-top: 20px;
+    }
+
+    .contact input, .contact textarea, .contact button {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 5px;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
